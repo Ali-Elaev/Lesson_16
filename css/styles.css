@@ -1,0 +1,224 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+   padding: 50px;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Poppins', sans-serif;
+}
+
+.form-appointment {
+   background-color: #5D62B5;
+   border-radius: 40px;
+   width: 585px;
+   padding: 76px 0;
+   margin-right: 50px;
+
+}
+
+.form-appointment__title {
+   font-family: 'Roboto';
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 1.6;
+   color: #FFFFFF;
+   margin-bottom: 40px;
+   text-align: center;
+}
+
+.form-appointment__body {
+   width: 470px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   row-gap: 15px;
+   margin-bottom: 30px;
+}
+
+.form-appointment__item {
+   width: 224px;
+   height: 48px;
+   border: 2px solid #fff;
+   border-radius: 10px;
+   opacity: 0.8;
+   padding-left: 20px;
+   background-color: #5D62B5;
+   letter-spacing: 0.15px;
+   color: #fff;
+}
+
+.form-appointment__item::placeholder {
+  color: #fff;
+}
+
+.form-appointment__textarea {
+   width: 470px;
+   height: 180px;
+   background-color: #5D62B5;
+   border: 2px solid #fff;
+   color: #fff;
+   opacity: 0.8;
+   border-radius: 10px;
+   padding: 22px;
+   resize: none;
+}
+
+.form-appointment__submit {
+   background-color: #F2726F;
+   border-radius: 8px;
+   width: 210px;
+   height: 48px;
+   color: #FFFFFF;
+   font-size: 12px;
+   cursor: pointer;
+}
+
+.form-appointment__items {
+   width: 470px;
+   margin: 0 auto;
+}
+
+.form-appointment__button {
+   text-align: right;
+}
+
+/* Customer */
+
+.customer-form {
+   max-width: 564px;
+   background-color: #F5F7FF;
+   padding: 37px 57px;
+   font-size: 14px;
+   margin-right: 50px;
+}
+.customer-form__container {
+   max-width: 449px;
+}
+.customer-form__header {
+   margin-bottom: 24px;
+}
+.header-top {
+   font-family: 'Poppins';
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 1.5;
+}
+.header-bottom {
+   font-weight: 300;
+   line-height: 2.1;
+}
+.customer-form__input-box:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.box-input__label {
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 2;
+   display: block;
+   margin-bottom: 14px;
+}
+.customer-form__text {
+   width: 449px;
+   height: 50px;
+   padding-left: 17px;
+   border-radius: 4px;
+   font-weight: 300;
+   line-height: 1.4;
+   border: 1px solid #A2A6B0;
+
+}
+
+.button {
+   flex: 0 0 151px;
+   height: 50px;
+   background: #0156FF;
+   border-radius: 50px;
+   color: #fff;
+   cursor: pointer;
+   margin-right: 23px;
+}
+.link-box__forgot {
+   color: #0156FF;
+   line-height: 14px;
+
+}
+
+.customer-form__button {
+   display: flex;
+   align-items: baseline;
+}
+
+.wrapper {
+   display: flex;
+   align-items: flex-start;
+}
+
+
+
+/* Summary */
+
+
+.summary-form {
+   max-width: 446px;
+   background-color: #F5F7FF;
+   padding: 17px 30px;
+   font-size: 13px;
+}
+
+.summary-form__title {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 1.5;
+   margin-bottom: 16px;
+}
+.summary-form__sub-title {
+   font-size: 18px;
+   line-height: 1.5;
+   margin-bottom: 12px;
+}
+.summary-form__title-bottom {
+   color: #666666;
+   font-size: 14px;
+   line-height: 1.5;
+   max-width: 287px;
+   margin-bottom: 15px;
+}
+
+.summary-form__label {
+   margin-bottom: 4px;
+}
+
+.labels__item {
+   font-weight: 600;
+   line-height: 2;
+}
+.summary-form__component {
+   margin-bottom: 10px;
+}
+.summary-form__component-item {
+   width: 386px;
+   height: 50px;
+   border: 1px solid #A2A6B0;
+   border-radius: 4px;
+   padding: 17px;
+}
+.summary-form__component-radio {
+   display: flex;
+   column-gap: 8px;
+}
+
+.summary-form__submit {
+   width: 386px;
+   height: 50px;
+   color: #0156FF;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 1.5;
+   border: 2px solid #0156FF;
+   border-radius: 50px;
+   cursor: pointer;
+   background-color: #F5F7FF;
+}

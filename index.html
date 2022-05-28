@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/styles.css">
+   <title>Lesson 16</title>
+</head>
+<body>
+   <div class="wrapper">
+      <form action="#" class="form-appointment">
+         
+         <div class="form-appointment__items">
+            <h2 class="form-appointment__title">Make an appointment</h2>
+            <div class="form-appointment__body">
+               <input type="text" name="username" class="form-appointment__item" placeholder="Name">
+               <input type="email" name="email" class="form-appointment__item" placeholder="Email">
+               <input type="tel" name="phone" class="form-appointment__item" placeholder="Phone Number">
+               <select name="service" class="form-appointment__item">
+                  <option value="service 1">Select Service</option>
+                  <option value="service 2">Service 1</option>
+                  <option value="service 3">Service 2</option>
+               </select>
+               <textarea class="form-appointment__textarea">Tell us about your puppers include his/her name</textarea>
+            </div>
+            <div class="form-appointment__button">
+               <input type="submit" value="Make an Appointment" class="form-appointment__submit">
+            </div>
+         </div>
+      </form>
+   
+
+   <!-- Registered Customers -->
+
+   <form action="#" class="customer-form">
+      <div class="customer-form__container">
+         <div class="customer-form__header">
+            <div class="header-top">Registered Customers</div>
+            <div class="header-bottom">If you have an account, sign in with your email address.</div>
+         </div>
+         <div class="customer-form__input-box box-input">
+            <label for="email" class="box-input__label">Email</label>
+            <input type="email" name="email" class="customer-form__text" placeholder="Your Email" id="email">
+         </div>
+         <div class="customer-form__input-box box-input">
+            <label for="password" class="box-input__label">Password</label>
+            <input type="password" name="password" class="customer-form__text" placeholder="Your Password">
+         </div>
+         <div class="customer-form__button">
+            <input type="submit" name="submit" value="Sign In" class="button">
+            <div class="link-box">
+               <a href="#" class="link-box__forgot">Forgot Your Password?</a>
+            </div>
+         </div>
+      </div>
+   </form>
+
+<!-- Summary -->
+
+     <form action="#" class="summary-form">
+        <div class="summary-form__container">
+           <div class="summary-form__title">Summary</div>
+           <div class="summary-form__sub-title">Estimate Shipping and Tax</div>
+           <div class="summary-form__title-bottom">Enter your destination to get a shipping estimate.</div>
+           <div class="summary-form__component-group">
+              <div class="summary-form__label labels">
+                 <label for="country" class="labels__item">Country</label>
+              </div>
+              <div class="summary-form__component">
+                 <select name="select-country" id="country" class="summary-form__component-item">
+                    <option value="australia">Australia</option>
+                    <option value="iraq">Iraq</option>
+                    <option value="palestine">Palestine</option>
+                 </select>
+              </div>
+              <div class="summary-form__label labels">
+                  <label for="state" class="labels__item">State/Province</label>
+               </div>
+               <div class="summary-form__component">
+                  <input type="text" name="state" id="state" class="summary-form__component-item">
+               </div>
+               <div class="summary-form__label labels">
+                  <label for="zip" class="labels__item">Zip/Postal Code</label>
+               </div>
+               <div class="summary-form__component">
+                  <input type="text" name="state" id="zip" class="summary-form__component-item">
+               </div>
+               <div class="summary-form__label labels">
+                  <label for="rate" class="labels__item">Standard Rate</label>
+               </div>
+               <div class="summary-form__component">
+                  <div class="summary-form__component-radio">
+                     <input type="radio" name="radio" id="rate" class="summary-form__radio">
+                     <div class="summary-form__text">Price may vary depending on the item/destination. Shop Staff will contact you. $21.00</div>
+                  </div>
+               </div>
+               <div class="summary-form__label labels">
+                  <label for="store" class="labels__item">Pickup from store</label>
+               </div>
+               <div class="summary-form__component">
+                  <div class="summary-form__component-radio">
+                     <input type="radio" name="radio" id="store" class="summary-form__radio">
+                     <div class="summary-form__text">1234 Street Adress City Address, 1234 $0.00</div>
+                  </div>
+               </div>
+               <div class="summary-form__sub-title">Apply Discount Code</div>
+               <div class="summary-form__label labels">
+                  <label for="discount" class="labels__item">Enter discount code</label>
+               </div>
+               <div class="summary-form__component">
+                  <input type="text" name="state" id="discount" class="summary-form__component-item" placeholder="Enter Discount code">
+               </div>
+           </div>
+           <div class="summary-form__button">
+              <input type="submit" class="summary-form__submit" value="Apply Discount">
+           </div>
+        </div>
+     </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+</body>
+</html>
